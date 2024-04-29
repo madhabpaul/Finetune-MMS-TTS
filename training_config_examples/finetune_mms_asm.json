@@ -1,12 +1,12 @@
 {
-    "project_name": "mms_assamese_finetuning_v2",
+    "project_name": "mms_assamese_finetuning",
     "push_to_hub": true,
     "hub_model_id": "madhabpaul/mms-tts-asm",
     "report_to": ["wandb"],
     "overwrite_output_dir": true,
     "output_dir": "./tmp/vits_finetuned_asm",
 
-    "dataset_name": "madhabpaul/assamese_male_1",       
+    "dataset_name": "madhabpaul/assamese_speech_corpus",       
     "dataset_config_name": "default", 
     "audio_column_name": "audio", 
     "text_column_name":"transcription",
